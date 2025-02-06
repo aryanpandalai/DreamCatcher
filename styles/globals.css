@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: hsl(220, 4%, 12%);
+    --foreground: #ffffff;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: 'Copernicus';
+  src: url('/fonts/copernicus/CopernicusTrial-Book-BF66160450c2e92.ttf') format('otf');
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Copernicus';
+  src: url('/fonts/copernicus/CopernicusTrial-Semibold-BF66160451692c7.ttf') format('otf');
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
