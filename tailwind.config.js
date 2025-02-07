@@ -8,9 +8,12 @@ module.exports = {
     extend: {
       colors: {
         primary: 'var(--primary-color)', // Using the CSS variable
-        customClay: 'hsl(15 63.1% 59.6%)',      // Or define a hex color directly
+        customClay: 'hsl(15 63.1% 59.6%)',      
+        darkClay: '#b6613c',
         customPurple: 'hsl(251 84.6% 74.5%)',
         constantSlate: 'hsl(50 11.5% 79.6%)',
+        menuCol: 'hsl(30  4% 10%)',
+        orangeText: "#d97757",
         accentPro: {
           0: 'hsl(251, 84.6%, 74.5%)',
           100: 'hsl(251, 40.2%, 54.1%)',

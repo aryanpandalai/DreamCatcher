@@ -9,7 +9,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: hsl(220, 4%, 12%);
+    --background: hsl(60, 2%, 16%);
     --foreground: #ffffff;
   }
 }
@@ -33,4 +33,23 @@ body {
   font-weight: 700; /* Bold */
   font-style: normal;
 }
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f100;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
